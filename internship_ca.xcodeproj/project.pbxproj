@@ -12,8 +12,9 @@
 		10295DE31EDADFA900D1D9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10295DE11EDADFA900D1D9B6 /* Main.storyboard */; };
 		10295DE51EDADFA900D1D9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10295DE41EDADFA900D1D9B6 /* Assets.xcassets */; };
 		10295DE81EDADFA900D1D9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10295DE61EDADFA900D1D9B6 /* LaunchScreen.storyboard */; };
-		10295DF31EDADFA900D1D9B6 /* internship_caTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295DF21EDADFA900D1D9B6 /* internship_caTests.swift */; };
-		10295DFE1EDADFA900D1D9B6 /* internship_caUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295DFD1EDADFA900D1D9B6 /* internship_caUITests.swift */; };
+		10295E0E1EDAE08E00D1D9B6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */; };
+		10295E101EDAE08E00D1D9B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */; };
+		10295E111EDAE08E00D1D9B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10295DDA1EDADFA900D1D9B6 /* internship_ca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internship_ca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10295DDD1EDADFA900D1D9B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10295DDF1EDADFA900D1D9B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10295DE21EDADFA900D1D9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10295DE41EDADFA900D1D9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10295DE71EDADFA900D1D9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10295DE91EDADFA900D1D9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10295DEE1EDADFA900D1D9B6 /* internship_caTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = internship_caTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10295DF21EDADFA900D1D9B6 /* internship_caTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internship_caTests.swift; sourceTree = "<group>"; };
-		10295DF41EDADFA900D1D9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10295DF91EDADFA900D1D9B6 /* internship_caUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = internship_caUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10295DFD1EDADFA900D1D9B6 /* internship_caUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internship_caUITests.swift; sourceTree = "<group>"; };
-		10295DFF1EDADFA900D1D9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10295DEE1EDADFA900D1D9B6 /* internship_caTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = internship_caTests.xctest; path = "/Users/Mohammed/Developer/internship_ca/build/Debug-iphoneos/internship_caTests.xctest"; sourceTree = "<absolute>"; };
+		10295DF91EDADFA900D1D9B6 /* internship_caUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = internship_caUITests.xctest; path = "/Users/Mohammed/Developer/internship_ca/build/Debug-iphoneos/internship_caUITests.xctest"; sourceTree = "<absolute>"; };
+		10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internship_ca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10295E0E1EDAE08E00D1D9B6 /* Bolts.framework in Frameworks */,
+				10295E101EDAE08E00D1D9B6 /* FBSDKCoreKit.framework in Frameworks */,
+				10295E111EDAE08E00D1D9B6 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,20 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				10295DDC1EDADFA900D1D9B6 /* internship_ca */,
-				10295DF11EDADFA900D1D9B6 /* internship_caTests */,
-				10295DFC1EDADFA900D1D9B6 /* internship_caUITests */,
-				10295DDB1EDADFA900D1D9B6 /* Products */,
+				10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */,
 			);
-			sourceTree = "<group>";
-		};
-		10295DDB1EDADFA900D1D9B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				10295DDA1EDADFA900D1D9B6 /* internship_ca.app */,
-				10295DEE1EDADFA900D1D9B6 /* internship_caTests.xctest */,
-				10295DF91EDADFA900D1D9B6 /* internship_caUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		10295DDC1EDADFA900D1D9B6 /* internship_ca */ = {
@@ -103,26 +94,11 @@
 				10295DE41EDADFA900D1D9B6 /* Assets.xcassets */,
 				10295DE61EDADFA900D1D9B6 /* LaunchScreen.storyboard */,
 				10295DE91EDADFA900D1D9B6 /* Info.plist */,
+				10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */,
+				10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */,
+				10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */,
 			);
 			path = internship_ca;
-			sourceTree = "<group>";
-		};
-		10295DF11EDADFA900D1D9B6 /* internship_caTests */ = {
-			isa = PBXGroup;
-			children = (
-				10295DF21EDADFA900D1D9B6 /* internship_caTests.swift */,
-				10295DF41EDADFA900D1D9B6 /* Info.plist */,
-			);
-			path = internship_caTests;
-			sourceTree = "<group>";
-		};
-		10295DFC1EDADFA900D1D9B6 /* internship_caUITests */ = {
-			isa = PBXGroup;
-			children = (
-				10295DFD1EDADFA900D1D9B6 /* internship_caUITests.swift */,
-				10295DFF1EDADFA900D1D9B6 /* Info.plist */,
-			);
-			path = internship_caUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +118,7 @@
 			);
 			name = internship_ca;
 			productName = internship_ca;
-			productReference = 10295DDA1EDADFA900D1D9B6 /* internship_ca.app */;
+			productReference = 10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */;
 			productType = "com.apple.product-type.application";
 		};
 		10295DED1EDADFA900D1D9B6 /* internship_caTests */ = {
@@ -216,7 +192,7 @@
 				Base,
 			);
 			mainGroup = 10295DD11EDADFA900D1D9B6;
-			productRefGroup = 10295DDB1EDADFA900D1D9B6 /* Products */;
+			productRefGroup = 10295DD11EDADFA900D1D9B6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -268,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10295DF31EDADFA900D1D9B6 /* internship_caTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10295DFE1EDADFA900D1D9B6 /* internship_caUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/internship_ca",
+				);
 				INFOPLIST_FILE = internship_ca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ma.akhawayn.cs193p.mohammed.internship-ca";
@@ -424,6 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/internship_ca",
+				);
 				INFOPLIST_FILE = internship_ca/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ma.akhawayn.cs193p.mohammed.internship-ca";
