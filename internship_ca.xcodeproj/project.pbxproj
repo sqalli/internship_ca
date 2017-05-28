@@ -47,6 +47,7 @@
 		10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internship_ca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10295E121EDAE42000D1D9B6 /* internship_ca-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "internship_ca-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 			children = (
 				10295DDC1EDADFA900D1D9B6 /* internship_ca */,
 				10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */,
+				10295E121EDAE42000D1D9B6 /* internship_ca-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +171,7 @@
 				TargetAttributes = {
 					10295DD91EDADFA900D1D9B6 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					10295DED1EDADFA900D1D9B6 = {
@@ -386,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/internship_ca",
@@ -394,6 +398,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ma.akhawayn.cs193p.mohammed.internship-ca";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "internship_ca-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -402,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/internship_ca",
@@ -410,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ma.akhawayn.cs193p.mohammed.internship-ca";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "internship_ca-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
