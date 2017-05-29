@@ -15,6 +15,23 @@
 		10295E0E1EDAE08E00D1D9B6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */; };
 		10295E101EDAE08E00D1D9B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */; };
 		10295E111EDAE08E00D1D9B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */; };
+		10295E181EDC5B2100D1D9B6 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E171EDC5B2100D1D9B6 /* AlbumTableViewCell.swift */; };
+		10295E1A1EDC5C0900D1D9B6 /* ImageViewAsynchLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E191EDC5C0900D1D9B6 /* ImageViewAsynchLoading.swift */; };
+		10295E1C1EDC5D8E00D1D9B6 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E1B1EDC5D8E00D1D9B6 /* PhotoCollectionViewCell.swift */; };
+		10295E1E1EDC883D00D1D9B6 /* SelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E1D1EDC883D00D1D9B6 /* SelectedView.swift */; };
+		10295E211EDC8A4A00D1D9B6 /* FacebookAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E201EDC8A4A00D1D9B6 /* FacebookAlbum.swift */; };
+		10295E231EDC8B2D00D1D9B6 /* FacebookImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E221EDC8B2D00D1D9B6 /* FacebookImage.swift */; };
+		10295E251EDC8C2800D1D9B6 /* FacebookPickerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E241EDC8C2700D1D9B6 /* FacebookPickerConfig.swift */; };
+		10295E271EDC8CE900D1D9B6 /* FacebookPickerCustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E261EDC8CE900D1D9B6 /* FacebookPickerCustomError.swift */; };
+		10295E291EDC8EA800D1D9B6 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E281EDC8EA800D1D9B6 /* NotificationName.swift */; };
+		10295E2C1EDC903D00D1D9B6 /* FacebookAlbumPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E2B1EDC903D00D1D9B6 /* FacebookAlbumPicker.swift */; };
+		10295E2E1EDC944200D1D9B6 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E2D1EDC944200D1D9B6 /* AppearanceManager.swift */; };
+		10295E301EDC948300D1D9B6 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E2F1EDC948300D1D9B6 /* AssetManager.swift */; };
+		10295E321EDC94EF00D1D9B6 /* FacebookHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E311EDC94EF00D1D9B6 /* FacebookHelper.swift */; };
+		10295E341EDC960200D1D9B6 /* FacebookImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E331EDC960200D1D9B6 /* FacebookImagePicker.swift */; };
+		10295E361EDC975400D1D9B6 /* FacebookImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E351EDC975400D1D9B6 /* FacebookImagePickerDelegate.swift */; };
+		10295E381EDC98FD00D1D9B6 /* FacebookNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E371EDC98FD00D1D9B6 /* FacebookNavigationController.swift */; };
+		10295E3A1EDC994500D1D9B6 /* PhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10295E391EDC994500D1D9B6 /* PhotoPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +65,23 @@
 		10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		10295E0F1EDAE08E00D1D9B6 /* internship_ca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = internship_ca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10295E121EDAE42000D1D9B6 /* internship_ca-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "internship_ca-Bridging-Header.h"; sourceTree = "<group>"; };
+		10295E171EDC5B2100D1D9B6 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		10295E191EDC5C0900D1D9B6 /* ImageViewAsynchLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewAsynchLoading.swift; sourceTree = "<group>"; };
+		10295E1B1EDC5D8E00D1D9B6 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		10295E1D1EDC883D00D1D9B6 /* SelectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedView.swift; sourceTree = "<group>"; };
+		10295E201EDC8A4A00D1D9B6 /* FacebookAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAlbum.swift; sourceTree = "<group>"; };
+		10295E221EDC8B2D00D1D9B6 /* FacebookImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookImage.swift; sourceTree = "<group>"; };
+		10295E241EDC8C2700D1D9B6 /* FacebookPickerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPickerConfig.swift; sourceTree = "<group>"; };
+		10295E261EDC8CE900D1D9B6 /* FacebookPickerCustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPickerCustomError.swift; sourceTree = "<group>"; };
+		10295E281EDC8EA800D1D9B6 /* NotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		10295E2B1EDC903D00D1D9B6 /* FacebookAlbumPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAlbumPicker.swift; sourceTree = "<group>"; };
+		10295E2D1EDC944200D1D9B6 /* AppearanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
+		10295E2F1EDC948300D1D9B6 /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		10295E311EDC94EF00D1D9B6 /* FacebookHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookHelper.swift; sourceTree = "<group>"; };
+		10295E331EDC960200D1D9B6 /* FacebookImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookImagePicker.swift; sourceTree = "<group>"; };
+		10295E351EDC975400D1D9B6 /* FacebookImagePickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookImagePickerDelegate.swift; sourceTree = "<group>"; };
+		10295E371EDC98FD00D1D9B6 /* FacebookNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookNavigationController.swift; sourceTree = "<group>"; };
+		10295E391EDC994500D1D9B6 /* PhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,17 +124,66 @@
 		10295DDC1EDADFA900D1D9B6 /* internship_ca */ = {
 			isa = PBXGroup;
 			children = (
+				10295E3C1EDCA2A300D1D9B6 /* Main */,
+				10295E3B1EDCA28400D1D9B6 /* Controllers */,
+				10295E2A1EDC8F3800D1D9B6 /* Models */,
+				10295E1F1EDC88D900D1D9B6 /* Views */,
+				10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */,
+				10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */,
+				10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */,
+			);
+			path = internship_ca;
+			sourceTree = "<group>";
+		};
+		10295E1F1EDC88D900D1D9B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10295E191EDC5C0900D1D9B6 /* ImageViewAsynchLoading.swift */,
+				10295E1B1EDC5D8E00D1D9B6 /* PhotoCollectionViewCell.swift */,
+				10295E1D1EDC883D00D1D9B6 /* SelectedView.swift */,
+				10295E171EDC5B2100D1D9B6 /* AlbumTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		10295E2A1EDC8F3800D1D9B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10295E201EDC8A4A00D1D9B6 /* FacebookAlbum.swift */,
+				10295E221EDC8B2D00D1D9B6 /* FacebookImage.swift */,
+				10295E241EDC8C2700D1D9B6 /* FacebookPickerConfig.swift */,
+				10295E261EDC8CE900D1D9B6 /* FacebookPickerCustomError.swift */,
+				10295E281EDC8EA800D1D9B6 /* NotificationName.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		10295E3B1EDCA28400D1D9B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10295E2B1EDC903D00D1D9B6 /* FacebookAlbumPicker.swift */,
+				10295E2D1EDC944200D1D9B6 /* AppearanceManager.swift */,
+				10295E2F1EDC948300D1D9B6 /* AssetManager.swift */,
+				10295E311EDC94EF00D1D9B6 /* FacebookHelper.swift */,
+				10295E331EDC960200D1D9B6 /* FacebookImagePicker.swift */,
+				10295E351EDC975400D1D9B6 /* FacebookImagePickerDelegate.swift */,
+				10295E371EDC98FD00D1D9B6 /* FacebookNavigationController.swift */,
+				10295E391EDC994500D1D9B6 /* PhotoPickerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		10295E3C1EDCA2A300D1D9B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				10295DDD1EDADFA900D1D9B6 /* AppDelegate.swift */,
 				10295DDF1EDADFA900D1D9B6 /* ViewController.swift */,
 				10295DE11EDADFA900D1D9B6 /* Main.storyboard */,
 				10295DE41EDADFA900D1D9B6 /* Assets.xcassets */,
 				10295DE61EDADFA900D1D9B6 /* LaunchScreen.storyboard */,
 				10295DE91EDADFA900D1D9B6 /* Info.plist */,
-				10295E0B1EDAE08E00D1D9B6 /* Bolts.framework */,
-				10295E0C1EDAE08E00D1D9B6 /* FBSDKCoreKit.framework */,
-				10295E0D1EDAE08E00D1D9B6 /* FBSDKLoginKit.framework */,
 			);
-			path = internship_ca;
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +321,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10295E321EDC94EF00D1D9B6 /* FacebookHelper.swift in Sources */,
 				10295DE01EDADFA900D1D9B6 /* ViewController.swift in Sources */,
+				10295E291EDC8EA800D1D9B6 /* NotificationName.swift in Sources */,
+				10295E1C1EDC5D8E00D1D9B6 /* PhotoCollectionViewCell.swift in Sources */,
+				10295E1A1EDC5C0900D1D9B6 /* ImageViewAsynchLoading.swift in Sources */,
+				10295E251EDC8C2800D1D9B6 /* FacebookPickerConfig.swift in Sources */,
+				10295E2C1EDC903D00D1D9B6 /* FacebookAlbumPicker.swift in Sources */,
+				10295E301EDC948300D1D9B6 /* AssetManager.swift in Sources */,
+				10295E231EDC8B2D00D1D9B6 /* FacebookImage.swift in Sources */,
 				10295DDE1EDADFA900D1D9B6 /* AppDelegate.swift in Sources */,
+				10295E3A1EDC994500D1D9B6 /* PhotoPickerViewController.swift in Sources */,
+				10295E211EDC8A4A00D1D9B6 /* FacebookAlbum.swift in Sources */,
+				10295E181EDC5B2100D1D9B6 /* AlbumTableViewCell.swift in Sources */,
+				10295E1E1EDC883D00D1D9B6 /* SelectedView.swift in Sources */,
+				10295E2E1EDC944200D1D9B6 /* AppearanceManager.swift in Sources */,
+				10295E271EDC8CE900D1D9B6 /* FacebookPickerCustomError.swift in Sources */,
+				10295E341EDC960200D1D9B6 /* FacebookImagePicker.swift in Sources */,
+				10295E361EDC975400D1D9B6 /* FacebookImagePickerDelegate.swift in Sources */,
+				10295E381EDC98FD00D1D9B6 /* FacebookNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,10 +34,10 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         return label
     }()
     
-    let showFriendsButton: UIButton = {
+    let showAlbumsButton: UIButton = {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Show Friends", for: .normal)
+        button.setTitle("Show Albums", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 12)
         button.setTitleColor(UIColor.black, for: .normal)
         button.layer.borderWidth = 1
@@ -64,24 +64,36 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         
         
     }
+    
     func setupSubviews() {
         view.addSubview(loginButton)
         view.addSubview(userImageView)
         view.addSubview(nameLabel)
-        view.addSubview(showFriendsButton)
+        view.addSubview(showAlbumsButton)
         
-        showFriendsButton.addTarget(self, action: "showFriends", for: .touchUpInside)
+        
+        showAlbumsButton.addTarget(self, action: "showAlbums", for: .touchUpInside)
         
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": userImageView]))
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": nameLabel]))
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-80-[v0]-80-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": showFriendsButton]))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-80-[v0]-80-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": showAlbumsButton]))
         
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-80-[v0]-80-|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": loginButton]))
         
-        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[v0(100)]-8-[v1(30)]-8-[v2(50)]-8-[v3(44)]", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": userImageView, "v1": nameLabel, "v2": loginButton, "v3": showFriendsButton]))
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[v0(100)]-8-[v1(30)]-8-[v2(50)]-8-[v3(44)]", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": userImageView, "v1": nameLabel, "v2": loginButton, "v3": showAlbumsButton]))
         
         loginButton.delegate = self
     }
+    
+    func showAlbums() {
+        
+            let friendsController = FacebookAlbumPicker()
+        
+            self.navigationController?.pushViewController(friendsController, animated: true)
+            self.navigationController?.navigationBar.tintColor = UIColor.white
+        
+    }
+
     
     func fetchProfile() {
         let parameters = ["fields": "email, first_name, last_name, picture.type(large)"]
@@ -138,6 +150,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
 
 }
