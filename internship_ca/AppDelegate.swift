@@ -18,7 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let navigationController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = navigationController
+        
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18), NSForegroundColorAttributeName: UIColor.white]
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 65/255, green: 93/255, blue: 174/255, alpha: 1)
+        
+        application.statusBarStyle = .lightContent
         return true
     }
     
